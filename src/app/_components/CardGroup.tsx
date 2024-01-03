@@ -7,7 +7,7 @@ type props = {
   coffees: Coffee[];
 };
 
-function CoffeeCards({ coffees }: props) {
+function CardGroup({ coffees }: props) {
   const [showAll, setShowAll] = useState<boolean>(true);
   return (
     <div className="p-16 bg-[#1B1D1F] rounded-2xl max-w-[1200px] w-[calc(100vw-10rem)] mx-auto my-32">
@@ -44,7 +44,7 @@ function CoffeeCards({ coffees }: props) {
   );
 }
 
-export default CoffeeCards;
+export default CardGroup;
 
 function Button({
   children,

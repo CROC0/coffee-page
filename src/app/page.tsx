@@ -1,7 +1,7 @@
 import { Coffee } from "@/types";
 import Image from "next/image";
 
-import CoffeeCards from "./_components/CoffeeCards";
+import CoffeeCards from "./_components/CardGroup";
 
 export default async function Home() {
   const data = await fetch(
